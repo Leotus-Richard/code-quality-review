@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "code-quality-review",
+  "version": "0.1.0",
+  "description": "Review changes for correctness and design quality, and simplify generated code without changing required behavior.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "repository": "https://github.com/Leotus-Richard/code-quality-review",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Code Quality Review",
+        "shortDescription": "Review changes for correctness and design quality, and simplify",
+        "developerName": "Leotus-Richard",
+        "category": "Development"
+      }
+    }
+  }
+}

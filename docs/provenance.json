@@ -1,0 +1,200 @@
+{
+  "intakeVersion": "1.3.0",
+  "intakeArchiveSha256": "03bfd3c788e224247fa1fd14f5d614961499e0ccf740df2d4f3ec2cfa75bd6ad",
+  "prepared": "2026-10-20",
+  "activeSkillCount": 1,
+  "sourceBundleCount": 3,
+  "sources": [
+    {
+      "id": "code-review",
+      "source": "mattpocock:code-review",
+      "sourceUrl": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/SKILL.md",
+      "sourceSha256": "09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/code-review",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "deslop",
+      "source": "cursor-team-kit:deslop",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/cursor-team-kit/skills/deslop/SKILL.md",
+      "sourceSha256": "2f7b7def74af7ed11f5b44b4d32f0f91fca8c5d1f92bf2171e8d12fd33a0f810",
+      "dependencies": [
+        "commit-workflow"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/deslop",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    },
+    {
+      "id": "interrogate",
+      "source": "pstack:interrogate",
+      "sourceUrl": "https://github.com/cursor/plugins/blob/1e5c90a4b6f249917bd21fe361b3a2a7deb741b8/pstack/skills/interrogate/SKILL.md",
+      "sourceSha256": "a16dfe179005abc22a4651b82f25b0c8ab953284276efe4e6dc341958fb63647",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/interrogate",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false
+    }
+  ],
+  "files": [
+    {
+      "sourcePath": "skills/code-review/LICENSE",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "packagePath": "skills/code-quality-review/references/source/code-review/LICENSE",
+      "packageSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/code-review/SKILL.md",
+      "sourceSha256": "cc454c589bb8dbb1f96a62b636545e73deb1eb06301192f9840ad7976d3cfdd1",
+      "packagePath": "skills/code-quality-review/references/source/code-review/ORIGINAL-SKILL.md",
+      "packageSha256": "2ec90a3542fc288124f53af7895bf459e9c2c7c0c3ad08e5343a9af6db2e776c",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/code-review/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/code-quality-review/references/source/code-review/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/code-review/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357",
+      "packagePath": "skills/code-quality-review/references/source/code-review/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "ae0770e972665aef56f6e2c2e026cda86bc64463ebc51f3993063c8f49f05457",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/code-review/references/upstream/agents/openai.yaml",
+      "sourceSha256": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352",
+      "packagePath": "skills/code-quality-review/references/source/code-review/references/upstream/agents/openai.yaml",
+      "packageSha256": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/deslop/LICENSE",
+      "sourceSha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0",
+      "packagePath": "skills/code-quality-review/references/source/deslop/LICENSE",
+      "packageSha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/deslop/SKILL.md",
+      "sourceSha256": "eb85d22cccf6fd5404ee9d8e8c02a6d08eb5add0a3ae8eb10d8453ddcd50eaf0",
+      "packagePath": "skills/code-quality-review/references/source/deslop/ORIGINAL-SKILL.md",
+      "packageSha256": "4da0161e0bdd3285a60d15db9c385a9999e2180b29c50a19078dcda92e71b687",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/deslop/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/code-quality-review/references/source/deslop/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/deslop/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "2f7b7def74af7ed11f5b44b4d32f0f91fca8c5d1f92bf2171e8d12fd33a0f810",
+      "packagePath": "skills/code-quality-review/references/source/deslop/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "5ba5072566d782ee1387f558b58452f8e20bcd94626cb159e46d37c384b5a621",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/LICENSE",
+      "sourceSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/LICENSE",
+      "packageSha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/interrogate/SKILL.md",
+      "sourceSha256": "c9f9e105708ff6e4d4ec8bc10cd2bf47b45dd04549cf457909f34f3e87ac8c14",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/ORIGINAL-SKILL.md",
+      "packageSha256": "52123aaf04f3c757926db76ac40a825691744c71199bfcc10590aacf181e197d",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/ORIGINAL-SKILL.md",
+      "sourceSha256": "a16dfe179005abc22a4651b82f25b0c8ab953284276efe4e6dc341958fb63647",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/ORIGINAL-SKILL.md",
+      "packageSha256": "da6f7dbc5f5a17ddc207819d6af112c479eea2d4cc1ee6a18a76685a4adb261a",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/code-quality-review.md",
+      "sourceSha256": "79162fda183eafd40d51661fbb5e151c7ba250f89e506ba17f5bd135dcbd50a8",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/code-quality-review.md",
+      "packageSha256": "becebe83552f858c046871c03ef8c6894f8ea23b9826380e1319cacd3b3cd2e6",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/lead-judgment.md",
+      "sourceSha256": "6e5bdf5670eb34017692e9b6c546f36ac7552e6bb9f3f2f3429164fcc46a9361",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/lead-judgment.md",
+      "packageSha256": "e653fcd01d788ba04f1824515c1b6e05e23767a1031829aefad5acca12013830",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/reviewer-prompt.md",
+      "sourceSha256": "f6005cc2b535006fca97a96c5bfda49df57312eedf1ffd8d1aaaf3eb33817c25",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/reviewer-prompt.md",
+      "packageSha256": "534946c0c0165632f3483b4dcea7f5137a9c6297f3070abd5e9efaa8d30513b8",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/rubric.md",
+      "sourceSha256": "0f9c6bdb0b96e26dbde5f6407f417e0c02f54080e7a1268d8994f3c3ec6c5ac0",
+      "packagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/rubric.md",
+      "packageSha256": "248efd1824d42cd56e48b1a2b4722dd3ccf4f40713b43980ba18f5dc759cf804",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    }
+  ],
+  "referenceRepairs": [],
+  "nativeHostBehavior": "unverified",
+  "nativeHelpers": "archived source only; not enabled"
+}
