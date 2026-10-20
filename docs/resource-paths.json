@@ -1,0 +1,90 @@
+{
+  "formatVersion": 1,
+  "resources": [
+    {
+      "sourcePath": "skills/code-review/LICENSE",
+      "previousPackagePath": "skills/code-quality-review/references/source/code-review/LICENSE",
+      "packagePath": "skills/code-quality-review/references/r/001.license"
+    },
+    {
+      "sourcePath": "skills/code-review/SKILL.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/code-review/ORIGINAL-SKILL.md",
+      "packagePath": "skills/code-quality-review/references/r/002.md"
+    },
+    {
+      "sourcePath": "skills/code-review/references/local-execution-contract.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/code-review/references/local-execution-contract.md",
+      "packagePath": "skills/code-quality-review/references/r/003.md"
+    },
+    {
+      "sourcePath": "skills/code-review/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/code-review/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/code-quality-review/references/r/004.md"
+    },
+    {
+      "sourcePath": "skills/code-review/references/upstream/agents/openai.yaml",
+      "previousPackagePath": "skills/code-quality-review/references/source/code-review/references/upstream/agents/openai.yaml",
+      "packagePath": "skills/code-quality-review/references/r/005.yaml"
+    },
+    {
+      "sourcePath": "skills/deslop/LICENSE",
+      "previousPackagePath": "skills/code-quality-review/references/source/deslop/LICENSE",
+      "packagePath": "skills/code-quality-review/references/r/006.license"
+    },
+    {
+      "sourcePath": "skills/deslop/SKILL.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/deslop/ORIGINAL-SKILL.md",
+      "packagePath": "skills/code-quality-review/references/r/007.md"
+    },
+    {
+      "sourcePath": "skills/deslop/references/local-execution-contract.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/deslop/references/local-execution-contract.md",
+      "packagePath": "skills/code-quality-review/references/r/008.md"
+    },
+    {
+      "sourcePath": "skills/deslop/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/deslop/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/code-quality-review/references/r/009.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/LICENSE",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/LICENSE",
+      "packagePath": "skills/code-quality-review/references/r/010.license"
+    },
+    {
+      "sourcePath": "skills/interrogate/SKILL.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/ORIGINAL-SKILL.md",
+      "packagePath": "skills/code-quality-review/references/r/011.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/references/local-execution-contract.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/references/local-execution-contract.md",
+      "packagePath": "skills/code-quality-review/references/r/012.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/ORIGINAL-SKILL.md",
+      "packagePath": "skills/code-quality-review/references/r/013.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/code-quality-review.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/code-quality-review.md",
+      "packagePath": "skills/code-quality-review/references/r/014.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/lead-judgment.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/lead-judgment.md",
+      "packagePath": "skills/code-quality-review/references/r/015.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/reviewer-prompt.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/reviewer-prompt.md",
+      "packagePath": "skills/code-quality-review/references/r/016.md"
+    },
+    {
+      "sourcePath": "skills/interrogate/references/upstream/references/rubric.md",
+      "previousPackagePath": "skills/code-quality-review/references/source/interrogate/references/upstream/references/rubric.md",
+      "packagePath": "skills/code-quality-review/references/r/017.md"
+    }
+  ]
+}

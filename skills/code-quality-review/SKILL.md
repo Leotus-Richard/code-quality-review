@@ -23,8 +23,8 @@ Keep uncertainty explicit when specifications, tests, or execution access are mi
   Keep this evidence separate from lint/style results; a passing build is not
   proof that the requested behavior exists.
 - **Design:** test interfaces, invariants, complexity, coupling, and caller impact.
-  The optional [rubric](references/source/interrogate/references/upstream/references/rubric.md)
-  and [quality reference](references/source/interrogate/references/upstream/references/code-quality-review.md)
+  The optional [rubric](references/r/017.md)
+  and [quality reference](references/r/014.md)
   can sharpen a consequential design question.
 - **Generated-code cleanup:** identify speculative wrappers, redundant trusted
   internal guards, comments that merely restate code, unnecessary indirection,
